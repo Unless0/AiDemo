@@ -1,0 +1,4 @@
+该Demo实现了智能体的简单流程开发
+技术栈：langchain，rag,prompt，ollama，chroma
+主要功能是智能问答以及数据报表的生成(md格式)
+rag实现了离线以及在线流程包括文档处理切分召回等
