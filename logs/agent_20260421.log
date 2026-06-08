@@ -1,0 +1,332 @@
+2026-04-21 13:18:29,131 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有1条上下文信息
+2026-04-21 13:18:29,132 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'NoneType'>|消息内容：扫地机器人在我所在地区的气温下如何保养？
+2026-04-21 13:18:34,025 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：get_location_city
+2026-04-21 13:18:34,026 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{}
+2026-04-21 13:18:34,026 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：get_location_city
+2026-04-21 13:18:34,028 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有3条上下文信息
+2026-04-21 13:18:34,028 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：北京
+2026-04-21 13:18:36,778 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：get_weather
+2026-04-21 13:18:36,778 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{'city': '北京'}
+2026-04-21 13:18:36,779 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：get_weather
+2026-04-21 13:18:36,780 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有5条上下文信息
+2026-04-21 13:18:36,780 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：北京晴，温度25℃
+2026-04-21 13:18:41,087 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：rag_summarize
+2026-04-21 13:18:41,087 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{'query': '扫地机器人 常温环境 日常保养方法'}
+2026-04-21 13:18:43,081 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：rag_summarize
+2026-04-21 13:18:43,083 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有7条上下文信息
+2026-04-21 13:18:43,083 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：日常保养方法包括：定期清理尘盒；梅雨季节需定期除湿、勤换拖布以防霉；避免阳光直射充电座，以防高温影响电池寿命。
+2026-04-21 13:20:05,150 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有1条上下文信息
+2026-04-21 13:20:05,151 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'NoneType'>|消息内容：给我生成我的使用报告
+2026-04-21 13:20:07,387 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：get_user_id
+2026-04-21 13:20:07,387 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{}
+2026-04-21 13:20:07,388 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：get_user_id
+2026-04-21 13:20:07,390 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有3条上下文信息
+2026-04-21 13:20:07,390 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：1003
+2026-04-21 13:20:08,681 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：get_current_month
+2026-04-21 13:20:08,681 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{}
+2026-04-21 13:20:08,683 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：get_current_month
+2026-04-21 13:20:08,684 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有5条上下文信息
+2026-04-21 13:20:08,684 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：1月
+2026-04-21 13:20:10,395 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：get_current_month
+2026-04-21 13:20:10,396 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{}
+2026-04-21 13:20:10,397 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：get_current_month
+2026-04-21 13:20:10,399 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有7条上下文信息
+2026-04-21 13:20:10,400 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：3月
+2026-04-21 13:20:12,121 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：get_current_month
+2026-04-21 13:20:12,121 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{}
+2026-04-21 13:20:12,122 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：get_current_month
+2026-04-21 13:20:12,123 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有9条上下文信息
+2026-04-21 13:20:12,123 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：2月
+2026-04-21 13:20:13,533 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：get_current_month
+2026-04-21 13:20:13,533 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{}
+2026-04-21 13:20:13,534 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：get_current_month
+2026-04-21 13:20:13,537 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有11条上下文信息
+2026-04-21 13:20:13,537 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：3月
+2026-04-21 13:20:15,689 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：fill_context_for_report
+2026-04-21 13:20:15,689 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{}
+2026-04-21 13:20:15,690 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：fill_context_for_report
+2026-04-21 13:20:15,691 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有13条上下文信息
+2026-04-21 13:20:15,691 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：fill_context_for_report已调用
+2026-04-21 13:20:17,229 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：get_current_month
+2026-04-21 13:20:17,229 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{}
+2026-04-21 13:20:17,230 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：get_current_month
+2026-04-21 13:20:17,231 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有15条上下文信息
+2026-04-21 13:20:17,231 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：3月
+2026-04-21 13:20:19,498 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：rag_summarize
+2026-04-21 13:20:19,499 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{'query': '日期格式 YYYY-MM'}
+2026-04-21 13:20:20,805 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：rag_summarize
+2026-04-21 13:20:20,809 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有17条上下文信息
+2026-04-21 13:20:20,810 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：YYYY-MM
+2026-04-21 13:20:22,187 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：get_current_month
+2026-04-21 13:20:22,187 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{}
+2026-04-21 13:20:22,188 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：get_current_month
+2026-04-21 13:20:22,189 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有19条上下文信息
+2026-04-21 13:20:22,189 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：1月
+2026-04-21 13:20:23,915 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：rag_summarize
+2026-04-21 13:20:23,916 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{'query': '当前年份'}
+2026-04-21 13:20:26,503 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：rag_summarize
+2026-04-21 13:20:26,504 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有21条上下文信息
+2026-04-21 13:20:26,505 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：2025年
+2026-04-21 13:20:28,900 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：fetch_external_data
+2026-04-21 13:20:28,900 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{'user_id': '1003', 'month': '2025-01'}
+2026-04-21 13:20:28,901 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：fetch_external_data
+2026-04-21 13:20:28,902 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有23条上下文信息
+2026-04-21 13:20:28,902 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：Error: fetch_external_data is not a valid tool, try one of [get_weather, rag_summarize, get_user_id, get_current_month, get_location_city, fill_context_for_report].
+2026-04-21 13:20:31,497 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：rag_summarize
+2026-04-21 13:20:31,497 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{'query': '扫地机器人使用情况报告模板'}
+2026-04-21 13:20:34,503 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：rag_summarize
+2026-04-21 13:20:34,504 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有25条上下文信息
+2026-04-21 13:20:34,505 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：扫地机器人使用情况报告模板可包含以下核心模块：日常使用（如高效清扫计划设置、外出安全使用、防跌落措施）、清洁维护（如配套工具选择、耗材更换）、安全与隐私（如数据收集范围、地图隐私保护、防入侵措施）、经济性分析（如与传统保洁对比、年耗材费用、电费消耗、维修成本）。
+2026-04-21 13:20:36,519 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：rag_summarize
+2026-04-21 13:20:36,519 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{'query': '扫地机器人日常使用最佳实践'}
+2026-04-21 13:20:40,818 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：rag_summarize
+2026-04-21 13:20:40,820 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有27条上下文信息
+2026-04-21 13:20:40,821 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：日常使用最佳实践包括：每天定时清扫，周末配合深度清洁模式；外出时开启远程监控、清除易卡住物品、确保网络畅通；防止跌落楼梯需保持悬崖传感器清洁或设置虚拟墙边界；多楼层使用应搬运时保持开机以防地图丢失；提升边角清洁可选带动态边刷或方形机身机型；拖地时调节合适出水量并使用专用拖地模式以避免水渍；顽固污渍宜先手动局部清洁再启用深度拖地模式；梅雨季节需定期除湿、防电机受潮、勤换拖布防霉；夏季避免阳光直射充电座以防影响电池寿命。
+2026-04-21 13:20:42,725 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：rag_summarize
+2026-04-21 13:20:42,725 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{'query': '扫地机器人耗材更换周期和保养'}
+2026-04-21 13:20:46,317 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：rag_summarize
+2026-04-21 13:20:46,319 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有29条上下文信息
+2026-04-21 13:20:46,319 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：扫地机器人耗材更换周期：HEPA滤网每3-6个月更换；边刷每6-12个月检查磨损，变形严重时更换；主刷中胶刷寿命1-2年、毛刷6-12个月检查磨损；海绵滤网可水洗但需定期更换；拖布类型未说明具体更换周期。保养建议：尘盒每次使用后清理，至少每2-3次清扫清理一次；传感器用干燥软布擦拭激光雷达窗口、悬崖传感器等。
+2026-04-21 13:20:48,005 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：rag_summarize
+2026-04-21 13:20:48,006 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{'query': '扫地机器人常见问题及解决方法'}
+2026-04-21 13:20:51,208 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：rag_summarize
+2026-04-21 13:20:51,212 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有31条上下文信息
+2026-04-21 13:20:51,213 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：扫地机器人常见问题及解决方法包括：滚刷缠绕毛发时，使用配套清理工具或剪刀小心去除；被卡住时，先断电，检查并清理轮子、刷子处异物，再重启；不返回充电座可能因充电座位置变动、前方有障碍物或红外传感器脏污；漏扫某区域需检查是否设置禁区，尝试重新建图或手动遥控补扫。
+2026-04-21 13:51:44,233 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有1条上下文信息
+2026-04-21 13:51:44,233 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'NoneType'>|消息内容：扫地机器人在我所在地区温度下的保养建议
+2026-04-21 13:51:47,904 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：get_location_city
+2026-04-21 13:51:47,904 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{}
+2026-04-21 13:51:47,905 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：get_location_city
+2026-04-21 13:51:47,948 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有3条上下文信息
+2026-04-21 13:51:47,950 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：深圳
+2026-04-21 13:51:50,582 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：get_weather
+2026-04-21 13:51:50,582 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{'city': '深圳'}
+2026-04-21 13:51:50,583 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：get_weather
+2026-04-21 13:51:50,751 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有5条上下文信息
+2026-04-21 13:51:50,751 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：深圳晴，温度25℃
+2026-04-21 13:51:57,318 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：rag_summarize
+2026-04-21 13:51:57,319 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{'query': '扫地机器人温度25度保养建议'}
+2026-04-21 13:51:58,718 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：rag_summarize
+2026-04-21 13:51:59,119 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有7条上下文信息
+2026-04-21 13:51:59,120 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：参考资料中未提及“温度25度”下的具体保养建议。
+2026-04-21 13:56:26,840 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有1条上下文信息
+2026-04-21 13:56:26,841 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'NoneType'>|消息内容：扫地机器人在我所在地区气温下的保养建议
+2026-04-21 13:56:32,955 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：get_location_city
+2026-04-21 13:56:32,956 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{}
+2026-04-21 13:56:32,956 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：get_location_city
+2026-04-21 13:56:33,000 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有3条上下文信息
+2026-04-21 13:56:33,001 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：杭州
+2026-04-21 13:56:37,893 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：get_weather
+2026-04-21 13:56:37,893 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{'city': '杭州'}
+2026-04-21 13:56:37,894 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：get_weather
+2026-04-21 13:56:38,046 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有5条上下文信息
+2026-04-21 13:56:38,047 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：杭州晴，温度25℃
+2026-04-21 13:56:44,590 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：rag_summarize
+2026-04-21 13:56:44,591 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{'query': '扫地机器人在25℃气温下的保养建议'}
+2026-04-21 13:56:46,983 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：rag_summarize
+2026-04-21 13:56:47,593 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有7条上下文信息
+2026-04-21 13:56:47,593 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：25℃气温下无特殊保养要求，但需避免阳光直射充电座，以防高温影响电池寿命。
+2026-04-21 13:57:54,265 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有1条上下文信息
+2026-04-21 13:57:54,266 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'NoneType'>|消息内容：扫地机器人在我所在地区气温下的保养建议
+2026-04-21 13:58:03,282 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：get_location_city
+2026-04-21 13:58:03,282 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{}
+2026-04-21 13:58:03,283 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：get_location_city
+2026-04-21 13:58:03,326 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有3条上下文信息
+2026-04-21 13:58:03,327 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：广州
+2026-04-21 13:58:07,935 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：get_weather
+2026-04-21 13:58:07,935 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{'city': '广州'}
+2026-04-21 13:58:07,936 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：get_weather
+2026-04-21 13:58:08,092 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有5条上下文信息
+2026-04-21 13:58:08,092 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：广州晴，温度25℃
+2026-04-21 13:58:17,192 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：rag_summarize
+2026-04-21 13:58:17,192 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{'query': '扫地机器人常温环境（20-30℃）保养建议'}
+2026-04-21 13:58:19,228 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：rag_summarize
+2026-04-21 13:58:20,154 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有7条上下文信息
+2026-04-21 13:58:20,155 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：常温环境（20–30℃）下，需避免阳光直射充电座，以防高温影响电池寿命；日常应定期清理尘盒，保持设备干燥，防止受潮。
+2026-04-21 14:01:39,368 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有1条上下文信息
+2026-04-21 14:01:39,369 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'NoneType'>|消息内容：扫地机器人在我所在地区气温下的保养建议
+2026-04-21 14:01:47,913 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：get_location_city
+2026-04-21 14:01:47,913 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{}
+2026-04-21 14:01:47,914 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：get_location_city
+2026-04-21 14:01:47,957 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有3条上下文信息
+2026-04-21 14:01:47,958 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：深圳
+2026-04-21 14:01:52,823 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：get_weather
+2026-04-21 14:01:52,823 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{'city': '深圳'}
+2026-04-21 14:01:52,823 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：get_weather
+2026-04-21 14:01:52,977 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有5条上下文信息
+2026-04-21 14:01:52,977 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：深圳晴，温度25℃
+2026-04-21 14:02:04,192 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：rag_summarize
+2026-04-21 14:02:04,192 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{'query': '扫地机器人25℃环境保养建议'}
+2026-04-21 14:02:05,527 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：rag_summarize
+2026-04-21 14:02:05,900 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有7条上下文信息
+2026-04-21 14:02:05,901 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：参考资料中未提及25℃环境下的具体保养建议。
+2026-04-21 14:02:15,980 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：rag_summarize
+2026-04-21 14:02:15,980 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{'query': '扫地机器人高湿度环境保养'}
+2026-04-21 14:02:17,398 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：rag_summarize
+2026-04-21 14:02:17,803 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有9条上下文信息
+2026-04-21 14:02:17,804 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：梅雨季节需定期除湿以防电机受潮，并勤换拖布防霉。
+2026-04-21 14:02:25,810 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：rag_summarize
+2026-04-21 14:02:25,810 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{'query': '扫地机器人日常清洁保养规范'}
+2026-04-21 14:02:28,092 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：rag_summarize
+2026-04-21 14:02:29,475 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有11条上下文信息
+2026-04-21 14:02:29,475 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：日常清洁保养规范包括：尘盒需定期清理；确保悬崖传感器清洁或设置虚拟墙以防跌落；多楼层使用时搬运需保持开机状态以防地图丢失；拖地时应调节合适出水量并使用专用拖地模式以避免水渍。
+2026-04-21 14:04:43,030 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有1条上下文信息
+2026-04-21 14:04:43,031 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'NoneType'>|消息内容：扫地机器人在我所在地区气温下的保养建议
+2026-04-21 14:04:51,219 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：get_location_city
+2026-04-21 14:04:51,219 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{}
+2026-04-21 14:04:51,220 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：get_location_city
+2026-04-21 14:04:51,267 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有3条上下文信息
+2026-04-21 14:04:51,267 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：深圳
+2026-04-21 14:04:57,595 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：get_weather
+2026-04-21 14:04:57,595 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{'city': '深圳'}
+2026-04-21 14:04:57,596 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：get_weather
+2026-04-21 14:04:57,745 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有5条上下文信息
+2026-04-21 14:04:57,745 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：深圳晴，温度25℃
+2026-04-21 14:05:07,275 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：rag_summarize
+2026-04-21 14:05:07,275 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{'query': '扫地机器人 25℃ 高湿环境 保养建议'}
+2026-04-21 14:05:08,918 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：rag_summarize
+2026-04-21 14:05:09,403 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有7条上下文信息
+2026-04-21 14:05:09,403 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：25℃高湿环境下，需定期除湿以防电机受潮，勤换拖布以防霉变。
+2026-04-21 14:05:48,859 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有1条上下文信息
+2026-04-21 14:05:48,859 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'NoneType'>|消息内容：给我生成使用报告
+2026-04-21 14:05:56,474 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：get_user_id
+2026-04-21 14:05:56,474 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{}
+2026-04-21 14:05:56,474 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：get_user_id
+2026-04-21 14:05:56,580 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有3条上下文信息
+2026-04-21 14:05:56,581 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：1003
+2026-04-21 14:05:58,134 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：get_current_month
+2026-04-21 14:05:58,135 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{}
+2026-04-21 14:05:58,135 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：get_current_month
+2026-04-21 14:05:58,181 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有5条上下文信息
+2026-04-21 14:05:58,181 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：4月
+2026-04-21 14:06:00,661 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：get_current_month
+2026-04-21 14:06:00,661 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{}
+2026-04-21 14:06:00,662 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：get_current_month
+2026-04-21 14:06:00,710 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有7条上下文信息
+2026-04-21 14:06:00,711 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：2月
+2026-04-21 14:06:02,728 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：get_current_month
+2026-04-21 14:06:02,728 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{}
+2026-04-21 14:06:02,729 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：get_current_month
+2026-04-21 14:06:02,827 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有9条上下文信息
+2026-04-21 14:06:02,828 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：5月
+2026-04-21 14:06:04,775 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：get_current_month
+2026-04-21 14:06:04,776 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{}
+2026-04-21 14:06:04,776 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：get_current_month
+2026-04-21 14:06:04,826 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有11条上下文信息
+2026-04-21 14:06:04,827 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：3月
+2026-04-21 14:06:06,769 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：get_current_month
+2026-04-21 14:06:06,769 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{}
+2026-04-21 14:06:06,770 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：get_current_month
+2026-04-21 14:06:06,827 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有13条上下文信息
+2026-04-21 14:06:06,828 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：5月
+2026-04-21 14:06:12,760 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：fill_context_for_report
+2026-04-21 14:06:12,760 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{}
+2026-04-21 14:06:12,761 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：fill_context_for_report
+2026-04-21 14:06:13,218 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有15条上下文信息
+2026-04-21 14:06:13,219 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：fill_context_for_report已调用
+2026-04-21 14:06:15,953 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：get_current_month
+2026-04-21 14:06:15,953 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{}
+2026-04-21 14:06:15,954 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：get_current_month
+2026-04-21 14:06:16,016 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有17条上下文信息
+2026-04-21 14:06:16,016 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：1月
+2026-04-21 14:06:23,080 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：fetch_external_data
+2026-04-21 14:06:23,080 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{'user_id': '1003', 'month': '2025-01'}
+2026-04-21 14:06:23,080 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：fetch_external_data
+2026-04-21 14:06:25,930 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有19条上下文信息
+2026-04-21 14:06:25,931 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：Error: fetch_external_data is not a valid tool, try one of [get_weather, rag_summarize, get_user_id, get_current_month, get_location_city, fill_context_for_report].
+2026-04-21 14:06:35,858 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：rag_summarize
+2026-04-21 14:06:35,858 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{'query': '扫地机器人日常使用和保养建议'}
+2026-04-21 14:06:38,900 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：rag_summarize
+2026-04-21 14:06:41,269 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有21条上下文信息
+2026-04-21 14:06:41,270 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：日常使用建议：每天定时清扫，周末配合深度清洁模式；外出时开启远程监控、清除易卡物品、确保网络畅通；防止跌落楼梯需依赖机器人自身防跌功能。保养建议：尘盒需定期清理；梅雨季节要定期除湿、勤换拖布防霉；夏季避免阳光直射充电座以防高温影响电池寿命。
+2026-04-21 14:06:43,736 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：rag_summarize
+2026-04-21 14:06:43,736 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{'query': '扫地机器人常见故障及解决方法'}
+2026-04-21 14:06:47,592 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：rag_summarize
+2026-04-21 14:06:50,957 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有23条上下文信息
+2026-04-21 14:06:50,958 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：扫地机器人常见故障及解决方法包括：滚刷缠绕毛发时，使用配套清理工具或剪刀小心去除；被卡住时，先断电，检查并清理轮子、刷子处异物，再重启；不返回充电座可能因充电座位置变动、前方有障碍物或红外传感器脏污；漏扫某区域需检查是否设置禁区，尝试重新建图或手动遥控补扫；出现异常报警提示，应查看错误代码，按APP指引处理；固件升级失败可重启机器人，在网络稳定后重试，或联系客服。
+2026-04-21 14:06:53,285 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：rag_summarize
+2026-04-21 14:06:53,286 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{'query': '扫地机器人耗材更换周期和方法'}
+2026-04-21 14:06:57,049 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：rag_summarize
+2026-04-21 14:06:59,683 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有25条上下文信息
+2026-04-21 14:06:59,683 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：扫地机器人耗材更换周期：HEPA滤网每3-6个月更换；边刷每6-12个月检查磨损，变形严重时更换；主刷中胶刷寿命1-2年、毛刷6-12个月检查磨损；海绵滤网可水洗但需定期更换；拖布类型包括一次性、可水洗、抗菌材质等。更换方法：尘盒每次使用后或每2-3次清扫清理一次，可水洗但须完全晾干；传感器用干燥软布擦拭；建议优先选用原厂耗材。
+2026-04-21 14:07:28,092 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有1条上下文信息
+2026-04-21 14:07:28,093 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'NoneType'>|消息内容：给我生成使用报告
+2026-04-21 14:07:34,644 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：get_user_id
+2026-04-21 14:07:34,644 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{}
+2026-04-21 14:07:34,646 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：get_user_id
+2026-04-21 14:07:34,728 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有3条上下文信息
+2026-04-21 14:07:34,729 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：1005
+2026-04-21 14:07:38,209 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：get_current_month
+2026-04-21 14:07:38,209 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{}
+2026-04-21 14:07:38,209 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：get_current_month
+2026-04-21 14:07:38,262 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有5条上下文信息
+2026-04-21 14:07:38,263 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：4月
+2026-04-21 14:07:46,964 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：get_current_month
+2026-04-21 14:07:46,964 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{}
+2026-04-21 14:07:46,966 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：get_current_month
+2026-04-21 14:07:47,011 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有7条上下文信息
+2026-04-21 14:07:47,012 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：2月
+2026-04-21 14:07:55,917 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：fill_context_for_report
+2026-04-21 14:07:55,919 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{}
+2026-04-21 14:07:55,919 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：fill_context_for_report
+2026-04-21 14:07:56,322 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有9条上下文信息
+2026-04-21 14:07:56,323 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：fill_context_for_report已调用
+2026-04-21 14:08:06,499 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：fetch_external_data
+2026-04-21 14:08:06,499 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{'user_id': '1005', 'month': '2025-02'}
+2026-04-21 14:08:06,501 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：fetch_external_data
+2026-04-21 14:08:08,926 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有11条上下文信息
+2026-04-21 14:08:08,927 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：{"特征": "120㎡ | 老人 | 防滑砖", "效率": "手动操作占比:94%\\n定时清扫尝试使用:1次/周", "耗材": "电池衰减:26%\\n水箱未激活", "对比": "急需语音控制功能+简化操作界面", "时间": "2025-02"}
+2026-04-21 14:08:22,657 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：rag_summarize
+2026-04-21 14:08:22,657 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{'query': '老人使用扫地机器人'}
+2026-04-21 14:08:23,998 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：rag_summarize
+2026-04-21 14:08:24,384 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有13条上下文信息
+2026-04-21 14:08:24,385 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：参考资料中未提及老人使用扫地机器人的相关内容。
+2026-04-21 14:08:29,551 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：rag_summarize
+2026-04-21 14:08:29,552 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{'query': '语音控制设置'}
+2026-04-21 14:08:31,727 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：rag_summarize
+2026-04-21 14:08:33,263 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有15条上下文信息
+2026-04-21 14:08:33,263 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：语音控制设置支持小爱同学、天猫精灵、Google Assistant等常见语音助手，可实现开始/暂停清扫、返回充电、切换模式等基础操作；部分机型支持在APP中添加自定义语音指令以触发特定动作。
+2026-04-21 14:08:36,615 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：rag_summarize
+2026-04-21 14:08:36,615 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{'query': '电池保养'}
+2026-04-21 14:08:38,765 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：rag_summarize
+2026-04-21 14:08:39,105 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有17条上下文信息
+2026-04-21 14:08:39,105 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：参考资料中未提供关于电池保养的具体信息。
+2026-04-21 14:09:24,077 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有1条上下文信息
+2026-04-21 14:09:24,077 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'NoneType'>|消息内容：给我生成使用报告
+2026-04-21 14:09:31,455 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：get_user_id
+2026-04-21 14:09:31,455 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{}
+2026-04-21 14:09:31,457 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：get_user_id
+2026-04-21 14:09:31,547 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有3条上下文信息
+2026-04-21 14:09:31,548 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：1002
+2026-04-21 14:09:35,906 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：get_current_month
+2026-04-21 14:09:35,908 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{}
+2026-04-21 14:09:35,908 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：get_current_month
+2026-04-21 14:09:35,968 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有5条上下文信息
+2026-04-21 14:09:35,969 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：5月
+2026-04-21 14:09:44,201 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有1条上下文信息
+2026-04-21 14:09:44,201 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'NoneType'>|消息内容：给我生成使用报告
+2026-04-21 14:09:50,408 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：get_user_id
+2026-04-21 14:09:50,408 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{}
+2026-04-21 14:09:50,408 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：get_user_id
+2026-04-21 14:09:50,496 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有3条上下文信息
+2026-04-21 14:09:50,497 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：1005
+2026-04-21 14:09:54,242 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：get_current_month
+2026-04-21 14:09:54,242 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{}
+2026-04-21 14:09:54,243 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：get_current_month
+2026-04-21 14:09:54,396 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有5条上下文信息
+2026-04-21 14:09:54,397 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：2025-03
+2026-04-21 14:09:58,868 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：fill_context_for_report
+2026-04-21 14:09:58,869 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{}
+2026-04-21 14:09:58,869 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：fill_context_for_report
+2026-04-21 14:09:59,326 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有7条上下文信息
+2026-04-21 14:09:59,327 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：fill_context_for_report已调用
+2026-04-21 14:10:04,917 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：fetch_external_data
+2026-04-21 14:10:04,917 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{'user_id': '1005', 'month': '2025-03'}
+2026-04-21 14:10:04,918 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：fetch_external_data
+2026-04-21 14:10:07,283 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有9条上下文信息
+2026-04-21 14:10:07,284 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：{"特征": "120㎡ | 老人 | 防滑砖", "效率": "手动操作占比:93%\\n定时清扫使用率:2次/周", "耗材": "电池衰减:27%\\n水箱首次激活:使用1次", "对比": "语音控制功能已预约安装", "时间": "2025-03"}
+2026-04-21 14:10:15,219 - agent - INFO - middleware.py:26 - [monitor_tool]调用工具：rag_summarize
+2026-04-21 14:10:15,219 - agent - INFO - middleware.py:27 - [monitor_tool]传入参数：{'query': '老人家庭 防滑砖地面 电池保养 水箱使用'}
+2026-04-21 14:10:18,783 - agent - INFO - middleware.py:30 - [monitor_tool]调用结果：rag_summarize
+2026-04-21 14:10:20,396 - agent - INFO - middleware.py:50 - [log_before_model]模型调用前日志：带有11条上下文信息
+2026-04-21 14:10:20,397 - agent - DEBUG - middleware.py:52 - [log_before_model]类型名称：<class 'str'>|消息内容：老人家庭建议选择大电池+自动集尘机型；防滑砖地面需确保悬崖传感器清洁或设置虚拟墙防跌落；电池保养应避免在≤0℃低温环境充电；水箱使用需调节合适出水量，配合专用拖地模式以防渍。

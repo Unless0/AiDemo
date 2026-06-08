@@ -1,0 +1,9 @@
+cellection_name: agent
+persist_directory: chroma_db
+k: 3
+data_path: data
+md5_hex_store: md5.txt
+allow_knowledge_type: [ "text","pdf" ]
+chunk_size: 200
+chunk_overlap: 20
+separators: [ "\n", "\r\n", "\r"," ", ",", ".", "!", "?", ";", ":", "-", "_", "/", "|", "\\", "[", "]", "{", "}", "(", ")", "<", ">", "&", "#", "@" ]
